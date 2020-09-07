@@ -1,47 +1,9 @@
-body{
+body {
     height: 100%;
+    width: 100%;
     line-height: 1.5;
 }
 
-div{
-    border:1px dotted black;
-}
-
-.Header{
-    color: white;
-    display: flex;
-    background-color: goldenrod;
-    position: absolute;
-    top: 10%;
-    left: 7%;
-    width: 85%;
-    height: 10%;
-    justify-content: space-around;
-    box-sizing: border-box;
-    padding: 30px 40px 20px;
-    border-radius: 7px;
-}
-
-.Header>div {
-    display: inline-flex;
-    line-height: 2.5;
-    border: none;
-}
-
-.wrap{
-    width: 50%;
-    justify-content: center;
-}
-
-.icon{
-    padding-top: 0;
-    font-size: 34px;
-    margin-right: 30px;
-    border : none;
-    line-height: 1.8;
-}
-
-.content{
-    font-size: 26px;
-    border : none;
+div {
+    /* border: 1px dotted black; */
 }

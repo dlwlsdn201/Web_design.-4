@@ -8,31 +8,40 @@
     <script src="https://kit.fontawesome.com/955489ca42.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/mainContent.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
 
 <body>
-    <header class="Header">
-        <div class="Header__location-wrap wrap">
-            <div class="locaton__icon icon">
-                <i class="fas fa-map-marker-alt"></i>
+    <header>
+        <div class="container">
+            <div class="Header__wrap">
+                <div class="location__content content">
+                    <span class="content__icon">
+                        <i class="fas fa-map-marker-alt" class="nav__icon"></i>
+                    </span>
+                    UlsanRep.korea
+                </div>
+                <div class="contact__content content">
+                    <span class="content__icon">
+                        <i class="far fa-address-book" class="nav__icon"></i>
+                    </span>
+                    010-5159-7230
+                </div>
+                <div class="email__content content">
+                    <span class="content__icon">
+                        <i class="fas fa-envelope" class="nav__icon"></i>
+                    </span>
+                    ulsandaystar@gmail.com
+                </div>
             </div>
-            <div class="location__content content"> Ulsan Rep.korea</div>
-        </div>
-        <div class="Header__contact-wrap wrap">
-            <div class="contact__icon icon">
-                <i class="far fa-address-book"></i>
-            </div>
-            <div class="contact__content content"> 010-5159-7230</div>
-        </div>
-        <div class="Header__email-wrap wrap">
-            <div class="email__icon icon">
-                <i class="fas fa-envelope"></i>
-            </div>
-            <div class="email__content content">ulsandaystar@gmail.com</div>
         </div>
     </header>
     <section class="main_content">
-        <img src="./images/daystar.png" alt="" class="profile_img" width="200">
+        <div class="img__Box">
+            <img src="./images/daystar.png" alt="" class="profile_img" width="200">
+        </div>
         <div class="profile_Box">
             <div class="profile_name"></div>
             <div class="profile_concept"></div>

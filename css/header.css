@@ -1,0 +1,43 @@
+header {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    z-index: -1;
+}
+
+.container {
+    color: white;
+    background-color: goldenrod;
+    position: relative;
+    top: 30%;
+    width: 90%;
+    height: 50%;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: -50px 0 0 -50px;
+    padding: 0 10px;
+}
+
+
+.Header__wrap {
+    position: relative;
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 5%;
+    align-self: center;
+    justify-content: space-around;
+}
+
+
+.content__icon {
+    margin-right: 10px;
+}
+
+.content {
+    margin-bottom: 200px;
+    padding: auto auto;
+    font-size: 22px;
+    vertical-align: bottom;
+}
